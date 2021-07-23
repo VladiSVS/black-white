@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Maison';
+    src: url(../fonts/maison-neue-mono.woff2);
+}
+
+@font-face {
+    font-family: 'Rz-regular';
+    src: url(../fonts/rz-regular.woff2);
+    font-weight: 1000;
+}
+
+/* settings */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+section:nth-of-type(odd) {
+    padding: 5% 0;
+}
+
+nav {
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: 'Rz-regular';
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    font-family: 'Rz-regular';
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Maison';
+    font-size: 0.8em;
+    margin: 0;
+}
+
+p {
+    font-family: 'Rz-regular';
+}
+
+/* dark mode  */
+
+.changeButton {
+    position: fixed;
+    width: 58px;
+    height: 58px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-family: 'Maison';
+    right: 0;
+    top: 0;
+}
+main > input:nth-of-type(2) {
+    margin-right: -10%;
+}
+
+/* header */
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2% 10%;
+    border-bottom: 1px solid #000;
+}
+
+header > nav > h1 {
+    font-size: 1em;
+}
+
+header > nav > ul {
+    display: flex;
+}
+
+header > nav > ul > li {
+    margin-left: 3em;
+}
+
+header > nav > ul > li > a {
+    font-size: 1em;
+    letter-spacing: -1px;
+}
+
+/* head section  */
+
+.topText {
+    position: absolute;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.topText > h1 {
+    font-size: 7.5vw;
+    line-height: 9vw;
+}
+
+.topText > h1 > span{
+    color: #fff;
+    -webkit-text-stroke: 3px black;
+}
+
+#topHead > article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#topHead > article > img {
+    width: 23%;
+}
+
+#topHead > article > img:nth-of-type(1) {
+    content: url("../img/light-img/wo-left.png");
+    margin-top: 17%;
+}
+
+#topHead > article > img:nth-of-type(2) {
+    content: url("../img/light-img/landspace-mid.png");
+    width: 19%;
+    margin-top: 26%;
+}
+
+#topHead > article > img:nth-of-type(3) {
+    content: url("../img/light-img/man-right.jpg");
+    margin-top: 12%;
+}
+
+/* section skills */
+
+#agency {
+    justify-content: center;
+    display: flex;
+    padding: 15% 10%;
+}
+
+#agency > div > h2 {
+    margin-bottom: 3em;
+}
+
+#agency > div > h1 {
+    font-size: 2em;
+}
+
+#agency > div > p {
+    font-size: 0.9em;
+}
+
+.textBoxOne {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: 15%;
+}
+
+.textBoxTwo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* section projects */
+
+#project > h2 {
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+.projectsTabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsTabs > article {
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 0;
+}
+
+.projectsTabs > article:first-of-type {
+    margin-top: 0;
+    margin-bottom: 7%;
+}
+
+.projectsTabs > article:nth-of-type(even) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.projectsTabs > article:nth-of-type(even) > .projectName {
+    text-align: left;
+}
+
+.projectName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    width: 50%;
+}
+
+.projectName > h1 {
+    font-size: 2.2em;
+    letter-spacing: 0.1em;
+}
+
+.projectPhoto {
+    display: flex;
+}
+
+.projectPhoto > img {
+    width: 40vw;
+}
+
+.imageOne > img {
+    content: url('../img/light-img/adrian-Xft-JdC-Jbc-unsplash.png');
+}
+
+.imageTwo > img {
+    content: url('../img/light-img/chris-herath-FcvIlm3I2Ts-unsplash.png');
+}
+
+.imageThree > img {
+    content: url('../img/light-img/matthew-henry-kX9lb7LUDWc-unsplash.png');
+}
+
+.imageFour > img {
+    content: url('../img/light-img/phoebe-strafford-EBbP0Wrbmqs-unsplash.png');
+}
+
+.imageFive > img {
+    content: url('../img/light-img/ronan-furuta-ZJ8M0bfiu8U-unsplash.png');
+}
+
+/* section end */
+
+#contact {
+    background: #000;
+    padding: 10% 10%;
+}
+
+#contact > h1 {
+    color: #fff;
+    font-size: 7.5em;
+    width: 70%;
+    line-height: 1em;
+    margin-bottom: 5%;
+}
+
+.sendButton {
+    width: 14vw;
+    height: 8vh;
+    border: 2px solid #fff;
+    background: #000;
+    color: #fff;
+    font-family: 'Maison';
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    box-shadow:  8px 8px 0 0 #fff;
+}
+
+/* footer */
+
+footer {
+    padding: 2% 0;
+}
+
+footer > h1 {
+    font-size: 0.9em;
+    text-align: center;
+}
