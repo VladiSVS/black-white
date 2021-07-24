@@ -65,6 +65,7 @@ p {
     color: #fff;
     border: none;
     font-family: 'Maison';
+    cursor: pointer;
     left: 0;
     top: 0;
 }
