@@ -4,6 +4,8 @@ function changeColorDark(){
     document.getElementById("whiteOne").style.color = "#fff"
     document.getElementById("whiteTwo").style.color = "#fff"
     document.getElementById("whiteThree").style.color = "#fff"
+    document.getElementById("nav").style.borderBottom = "1px solid #fff"
+    document.getElementById("buttonTwo").style.border = "1px solid #fff"
     document.getElementById("buttonTwo").style.zIndex = "99"
     document.getElementById("bildOne").setAttribute("src", "assets/img/darkmode-img/image_12.jpg")
     document.getElementById("bildTwo").setAttribute("src", "assets/img/darkmode-img/image_4.jpg") 
