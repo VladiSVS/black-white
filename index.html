@@ -7,20 +7,20 @@
     <title>Document</title>
     <link id="source" rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body id="body">
     <header id="header">
         <nav>
             <h1>Art of Black & White</h1>
             <ul>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#agency">The Agency</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a id="whiteOne" href="#project">Project</a></li>
+                <li><a id="whiteTwo" href="#agency">The Agency</a></li>
+                <li><a id="whiteThree" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <input class="changeButton" type="button" value="Dark" onclick="changeColorDark()"></input>
-        <input class="changeButton" type="button" value="Light" onclick="changeColorLight()"></input>
+        <input id="buttonTwo" class="changeButton" type="button" value="Light" onclick="reloadPage()"></input>
+        <input id="buttonOne" class="changeButton" type="button" value="Dark" onclick="changeColorDark()"></input>
         <section id="topHead">
             <div class="topText">
                 <h1>Art of Black & White is</h1>
@@ -30,9 +30,9 @@
                 <h1><span>age</span>ncy.</h1>
             </div>
             <article>
-                <img>
-                <img>
-                <img>
+                <img id="bildOne" src="assets/img/light-img/wo-left.png">
+                <img id="bildTwo" src="assets/img/light-img/landspace-mid.png">
+                <img id="bildThree" src="assets/img/light-img/man-right.jpg"> 
             </article>
         </section>
         <section id="agency">
@@ -61,7 +61,7 @@
                         <h1>Landscape</h1>
                     </div>
                     <div class="projectPhoto imageOne">
-                        <img>
+                        <img id="imageOne" src="assets/img/light-img/adrian-Xft-JdC-Jbc-unsplash.png">
                     </div>
                 </article> 
                 <article> 
@@ -70,7 +70,7 @@
                         <h1>Landscape</h1>
                     </div>
                     <div class="projectPhoto imageTwo">
-                        <img>
+                        <img id="imageTwo" src="assets/img/light-img/chris-herath-FcvIlm3I2Ts-unsplash.png">
                     </div>
                 </article> 
                 <article>       
@@ -79,7 +79,7 @@
                         <h1>People</h1>
                     </div>
                     <div class="projectPhoto imageThree">
-                        <img>
+                        <img id="imageThree" src="assets/img/light-img/matthew-henry-kX9lb7LUDWc-unsplash.png">
                     </div>
                 </article> 
                 <article> 
@@ -88,7 +88,7 @@
                         <h1>Landscape</h1>
                     </div>
                     <div class="projectPhoto imageFour">
-                        <img>
+                        <img id="imageFour" src="assets/img/light-img/phoebe-strafford-EBbP0Wrbmqs-unsplash.png">
                     </div>
                 </article> 
                 <article>  
@@ -97,7 +97,7 @@
                         <h1>Landscape</h1>
                     </div>
                     <div class="projectPhoto imageFive">
-                        <img>
+                        <img id="imagefive" src="assets//img/light-img/ronan-furuta-ZJ8M0bfiu8U-unsplash.png">
                     </div>
                 </article> 
             </div>

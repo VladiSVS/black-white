@@ -68,9 +68,6 @@ p {
     right: 0;
     top: 0;
 }
-main > input:nth-of-type(2) {
-    margin-right: -10%;
-}
 
 /* header */
 
@@ -128,18 +125,15 @@ header > nav > ul > li > a {
 }
 
 #topHead > article > img:nth-of-type(1) {
-    content: url("../img/light-img/wo-left.png");
     margin-top: 17%;
 }
 
 #topHead > article > img:nth-of-type(2) {
-    content: url("../img/light-img/landspace-mid.png");
     width: 19%;
     margin-top: 26%;
 }
 
 #topHead > article > img:nth-of-type(3) {
-    content: url("../img/light-img/man-right.jpg");
     margin-top: 12%;
 }
 
@@ -227,26 +221,6 @@ header > nav > ul > li > a {
 
 .projectPhoto > img {
     width: 40vw;
-}
-
-.imageOne > img {
-    content: url('../img/light-img/adrian-Xft-JdC-Jbc-unsplash.png');
-}
-
-.imageTwo > img {
-    content: url('../img/light-img/chris-herath-FcvIlm3I2Ts-unsplash.png');
-}
-
-.imageThree > img {
-    content: url('../img/light-img/matthew-henry-kX9lb7LUDWc-unsplash.png');
-}
-
-.imageFour > img {
-    content: url('../img/light-img/phoebe-strafford-EBbP0Wrbmqs-unsplash.png');
-}
-
-.imageFive > img {
-    content: url('../img/light-img/ronan-furuta-ZJ8M0bfiu8U-unsplash.png');
 }
 
 /* section end */
